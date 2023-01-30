@@ -1,0 +1,32 @@
+.entry-field {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  background-color: #050831;
+  color: #d5e6f7;
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.div {
+  display: flex;
+}
+.btn-delete {
+  cursor: pointer;
+  margin: 0 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  transition: 0.4s;
+  background-image: linear-gradient(to left, #d5adfb, #f90052);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-delete:hover {
+  opacity: 0.8;
+}
+
+.btn-delete:active {
+  opacity: 0.4;
+}
