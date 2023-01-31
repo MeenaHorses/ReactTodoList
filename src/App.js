@@ -52,7 +52,7 @@ function App() {
       <h2 className="header-two">Tasks</h2>
       <TodoList todos={todos} delet={delet} />
       <div className="todo-left">
-        {todos.filter((todo) => todo).length} left to do
+        {todos.length} left to do
       </div>
     </>
   );
